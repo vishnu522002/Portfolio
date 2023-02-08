@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vishnu Portfolio</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <p class="logo">VISHNU</p>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="./images/resume.pdf" download="Vishnu's Resume"
+        ><button type="button">Download CV</button></a
+      >
+      <div class="menu">
+        <img src="./images/icons/menu.svg" alt="menu bar" />
+      </div>
+    </nav>
+    <div class="offcanvas">
+      <div class="close"><span class="close-button">x</span></div>
+      <ul>
+        <li><a href="#about" class="nav-links">About</a></li>
+        <li><a href="#skill" class="nav-links">Skills</a></li>
+        <li><a href="#portfolio" class="nav-links">Portfolio</a></li>
+        <li><a href="#contact" class="nav-links">Contact</a></li>
+        <li>
+          <a
+            href="./images/resume.pdf"
+            class="nav-links"
+            download="Vishnu's Resume"
+            >Download CV</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <header id="about">
+        <div class="about">
+          <p class="title">Welcome</p>
+          <p class="sub-head">
+            I’m <span class="primary">Vishnu</span>, <br>a <span class="primary">Fullstack Developer</span>
+          </p>
+          <p class="description">
+            I’m a passionate programmer who love to developing applications
+              and always very eager to learn new things.
+          </p>
+          <div class="btns">
+            <button type="button" class="btn clickable">
+              <a href="#contact">Contact Me</a>
+            </button>
+            <button type="button" class="invisible-btn clickable">
+              <a href="#portfolio">View Portfolio</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="header-img">
+          <img src="./images/design.jpg" alt="laptop design" />
+        </div>
+      </header>
+
+      <section id="skill">
+        <div class="skill-container">
+          <div class="hire-area">
+            <p class="title">My Skills</p>
+            <p class="subtitle">About <span class="primary">Me?</span></p>
+            <p class="description">
+              I am a <span class="primary">Fresher </span>with
+            Passion in Programming.I’ve been very interested in
+            solving problems and developing fullstack applications as a developer.
+            </p>
+            <button type="button" class="clickable">
+              <a href="#contact">Hire Me</a>
+            </button>
+          </div>
+
+          <div class="skills">
+            <div>
+              <img
+                src="./images/icons/diamond.svg"
+                alt="diamond icon"
+                style="margin-bottom: -2rem"
+              />
+              <h3>Frontend</h3>
+              <p class="description">HTML, CSS, Bootstrap and Javascript</p>
+            </div>
+            <div>
+              <img
+                src="./images/icons/school.svg"
+                alt="diamond icon"
+                style="margin-bottom: -2rem"
+              />
+              <h3>Other</h3>
+              <p class="description">React, Git and Github</p>
+            </div>
+          </div>
+          <div class="skill-backend">
+            <img
+              src="./images/icons/pulse.svg"
+              alt="diamond icon"
+              style="margin-bottom: -0.5rem; margin-top: 0.5rem"
+            />
+            <h3>Backend</h3>
+            <p class="description">
+              Java, Springboot framework, MySQL and Hibernate.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <p class="title">Portfolio</p>
+        <p class="subtitle">My <span class="primary">Projects</span></p>
+        <p class="description">
+          I have selected and mentioned here some of my projects to share with
+          you.
+        </p>
+        <div class="projects">
+          <div class="project">
+            <h4 class="heading">Tribute Page</h4>
+            <a
+              href="https://vishnujayadhar.github.io/Tribute-Page/"
+              target="_blank"
+              ><button>view page</button></a
+            >
+            <a
+              href="https://github.com/vishnujayadhar/Tribute-Page"
+              target="_blank"
+              ><button>view code</button></a
+            >
+            <img src="./images/project-img/tribute-page.png" alt="Tribute page project" />
+          </div>
+          <div class="project">
+            <h4 class="heading">Console Application - Java</h4>
+            <a
+              href="https://github.com/vishnujayadhar/Console-Application-Poorvika-Mobiles"
+              target="_blank"
+              ><button>view page</button></a
+            >
+            <a
+              href="https://github.com/vishnujayadhar/Console-Application-Poorvika-Mobiles"
+              target="_blank"
+              ><button>view code</button></a
+            >
+            <img src="./images/project-img/console.png" alt="java console project" />
+          </div>
+          <div class="project">
+            <h4 class="heading">Checkout Page(recreated)</h4>
+            <a
+              href="https://vishnujayadhar.github.io/checkout-form/"
+              target="_blank"
+              ><button>view page</button></a
+            >
+            <a
+              href="https://github.com/vishnujayadhar/checkout-form"
+              target="_blank"
+              ><button>view code</button></a
+            >
+            <img src="./images/project-img/checkout-form.png" alt="checkout page project" />
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <p class="title">Contact</p>
+        <p class="subtitle">Contact <span class="primary">Me</span></p>
+        <p class="description">
+          If you like my projects contact me to communicate
+        </p>
+        <div class="contact-section">
+          <div class="my-details">
+            <div class="row">
+              <img src="./images/icons/phone.svg" alt="phone icon" />
+              <div>
+                <p class="detail-head">Call me</p>
+                <p class="detail">+917708892705</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <img src="./images/icons/message.svg" alt="message icon" />
+              <div>
+                <p class="detail-head">Email me</p>
+                <p class="detail">shajayvi@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <img src="./images/icons/location.svg" alt="location icon" />
+              <div>
+                <p class="detail-head">Address</p>
+                <p class="detail">Salem, Tamilnadu, India.</p>
+              </div>
+            </div>
+          </div>
+          <form
+            class="input-area"
+            action="mailto:shajayvi@gmail.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <div class="input-group">
+              <input
+                type="text"
+                placeholder="Full name"
+                name="Name"
+                required
+                title=""
+              />
+              <input
+                type="email"
+                placeholder="Your email"
+                name="Email"
+                required
+                title=""
+              />
+            </div>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Message"
+              required
+              title=""
+            ></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+
+      <hr />
+      <footer>
+        <p>@ 2023. All Rights Reserved</p>
+        <p>Designed by Vishnu</p>
+        <div class="profile-icons">
+          <a href="https://www.linkedin.com/in/vishnu-t-785630263/">
+            <img
+              src="./images/icons/linkedin.svg"
+              alt="linkedin icon"
+              title="Linkedin Portfolio"
+            />
+          </a>
+          <a href="https://github.com/vishnujayadhar">
+            <img
+              src="./images/icons/github.svg"
+              alt="github icon"
+              class="github-icon"
+              title="Github Portfolio"
+            />
+          </a>
+        </div>
+      </footer>
+    </div>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
