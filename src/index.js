@@ -47,5 +47,7 @@ function getChildLink(element) {
 // Form submit and go to mail
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-  window.open(`mailto:${myMail}?subject=${email}&body=${name}: ${message}`);
+  window.open(
+    `mailto:${myMail}?subject=${email.value}&body=${name.value}:${message.value}`
+  );
 });
