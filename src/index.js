@@ -4,6 +4,11 @@ const menu = document.getElementsByClassName("menu");
 const close = document.getElementsByClassName("close-button");
 const nav = document.getElementsByTagName("nav");
 const navLinks = document.querySelectorAll(".nav-links");
+const form = document.getElementById("form");
+let myMail = "shajayvi@gmail.com";
+let name = document.getElementById("name");
+let email = document.getElementById("email");
+let message = document.getElementById("message");
 
 clickAction(menu[0], function () {
   nav[0].style.display = "none";
@@ -38,3 +43,9 @@ button.forEach((link) => {
 function getChildLink(element) {
   return element.children[0].href;
 }
+
+// Form submit and go to mail
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  window.open(`mailto:${myMail}?subject=${email}&body=${name}: ${message}`);
+});
